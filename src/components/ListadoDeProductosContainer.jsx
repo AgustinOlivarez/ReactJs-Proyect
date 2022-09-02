@@ -1,19 +1,50 @@
 import React, { useState, useEffect } from 'react';
-import ListadoDeProductosLayout from './ListadoDeProductosLayout';
+import jsonpack from './data.json';
+import ListadoDeProductos from './ListadoDeProductos';
+import Producto from './Producto';
 
-export default function ListadoDeProductosContainer() {
-  const productos = [
-    { id: 100, name: 'zapato nike', precio: 100 },
-    { id: 101, name: 'zapato nike', precio: 100 },
-    { id: 102, name: 'zapato nike', precio: 100 },
-    { id: 103, name: 'zapato nike', precio: 100 },
-    { id: 104, name: 'zapato nike', precio: 100 },
-  ];
+const ListadoDeProductosContainer = ({name}) => {
+  const[productos,setProductos]=useState([])
+  const llamar = new Promise((resolve,reject)=>{
+      setTimeout(()=>{
+          resolve(jsonpack)
+      },2000)
+  })
 
-  //fetch("pokepai.com/pokes" / json)
-  //normal // ordenardor
-  //paginar
-  //decir el largo de cada pagina
+  llamar.then(response=> {
+      setProductos(response)
+  })
 
-  return <ListadoDeProductosLayout productos={productos} />;
+
+
+  return (
+
+     <div name="test">
+
+
+
+  <div class="p-3 mb-2 bg-dark text-white">
+      {name}
+
+      <ListadoDeProductos items={productos}/>
+
+     </div>
+
+
+
+         </div>
+ )
 }
+
+
+export default ListadoDeProductosContainer;
+// export default function ListadoDeProductosContainer() {
+
+
+//   //fetch("pokepai.com/pokes" / json)
+//   //normal // ordenardor
+//   //paginar
+//   //decir el largo de cada pagina
+
+//   return <ListadoDeProductosLayout productos={productos} />;
+// }

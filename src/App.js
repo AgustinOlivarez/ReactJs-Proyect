@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Producto from './components/Producto';
+import ListadoDeProductosContainer from './components/ListadoDeProductosContainer';
 
 function App() {
   let producto1 = { id: 100, name: 'zapato nike', price: 100 };
@@ -8,8 +9,8 @@ function App() {
   return (
     <div>
       <NavBar />
-
-      <Producto item={producto1} color={'blue'} />
+      {/* <ListadoDeProductosContainer/> */}
+      <Producto />
     </div>
   );
   }
