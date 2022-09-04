@@ -4,13 +4,12 @@ import Producto from './components/Producto';
 import ListadoDeProductosContainer from './components/ListadoDeProductosContainer';
 
 function App() {
-  let producto1 = { id: 100, name: 'zapato nike', price: 100 };
+
 
   return (
     <div>
       <NavBar />
-      {/* <ListadoDeProductosContainer/> */}
-      <Producto />
+      <ListadoDeProductosContainer/>
     </div>
   );
   }
