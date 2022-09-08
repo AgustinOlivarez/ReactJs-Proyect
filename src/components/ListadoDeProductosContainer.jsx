@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import jsonpack from "./data.json";
 import ListadoDeProductos from "./ListadoDeProductos";
 import Producto from "./Producto";
+import { useParams } from 'react-router-dom';
 
 const ListadoDeProductosContainer = ({ name }) => {
   const [productos, setProductos] = useState([]);
+  const { idcategory, idproduct } = useParams();
 
   useEffect(() => {
     new Promise((resolve, reject) => {
@@ -12,13 +14,18 @@ const ListadoDeProductosContainer = ({ name }) => {
         resolve(jsonpack);
       }, 2000);
     }).then((response) => {
-      setProductos(response);
-    });
+      if (!idcategory) {
+
+        setProductos(response);
+      }else {
+        setProductos(response.filter((producto) => producto.idcategory == idcategory));
+      }
+    }, [idcategory]);
   }, []);
 
   return (
     <div name="test">
-      <div class="p-3 mb-2 bg-dark text-white">
+      <div className="p-3 mb-2 bg-dark text-white">
         {name}
 
         <ListadoDeProductos items={productos} />
@@ -28,12 +35,4 @@ const ListadoDeProductosContainer = ({ name }) => {
 };
 
 export default ListadoDeProductosContainer;
-// export default function ListadoDeProductosContainer() {
 
-//   //fetch("pokepai.com/pokes" / json)
-//   //normal // ordenardor
-//   //paginar
-//   //decir el largo de cada pagina
-
-//   return <ListadoDeProductosLayout productos={productos} />;
-// }
