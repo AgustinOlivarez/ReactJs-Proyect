@@ -3,7 +3,7 @@
         "id": "1",
         "nombre": "Combo 1: (1 Fernet + 2 Cocas)",
         "precio": 2000,
-        "img": "./IMG/fernet y cocas.jpeg",
+        "img": "../IMG/fernet y cocas.jpeg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -11,7 +11,7 @@
         "id": "2",
         "nombre": "Combo 2: (1 Gin + 2 Tonicas)",
         "precio": 2200,
-        "img": "./IMG/gin y 2 tonicas.jpg",
+        "img": "../IMG/gin y 2 tonicas.jpg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -19,7 +19,7 @@
         "id": "3",
         "nombre": "Combo 3: (1 Ron + 2 Cocas)",
         "precio": 2500,
-        "img": "./IMG/ron y 2 cocas.jpg",
+        "img": "../IMG/ron y 2 cocas.jpg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "nombre": "Combo 4: (1 Vodka + 2 Sprites)",
         "precio": 1900,
-        "img": "./IMG/vodka y 2 sprites.jpg",
+        "img": "../IMG/vodka y 2 sprites.jpg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -35,7 +35,7 @@
         "id": "5",
         "nombre": "Combo 5: (6 Pack Andes Rubia 473cc)",
         "precio": 1300,
-        "img": "./IMG/6Packandesrubia.png",
+        "img": "../IMG/6Packandesrubia.png",
         "descripcion": "descripcion",
         "idcategory":"Cervezas"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "nombre": "Combo 6: (6 Pack Andes IPA 473cc)",
         "precio": 1400,
-        "img": "./IMG/6Packandesipa.png",
+        "img": "../IMG/6Packandesipa.png",
         "descripcion": "descripcion",
         "idcategory":"Cervezas"
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "nombre": "Combo 7: (6 Pack Andes Roja 473cc)",
         "precio": 1300,
-        "img": "./IMG/6Packandesroja.png",
+        "img": "../IMG/6Packandesroja.png",
         "descripcion": "descripcion",
         "idcategory":"Cervezas"
       },
@@ -59,7 +59,7 @@
         "id": "8",
         "nombre": "Combo 8: (6 Pack Andes Negra 473cc)",
         "precio": 1400,
-        "img": "./IMG/6Packandesnegra.png",
+        "img": "../IMG/6Packandesnegra.png",
         "descripcion": "descripcion",
         "idcategory":"Cervezas"
     },
@@ -67,7 +67,7 @@
         "id": "9",
         "nombre": "Combo 9: (Botella Red Label 750ml)",
         "precio": 3000,
-        "img": "./IMG/Redlabel.jpeg",
+        "img": "../IMG/Redlabel.jpeg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
     },
@@ -75,7 +75,7 @@
         "id": "10",
         "nombre": "Combo 10: (Botella Blue Label 750ml)",
         "precio": 56500,
-        "img": "./IMG/Bluelabel.jpeg",
+        "img": "../IMG/Bluelabel.jpeg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
          },
@@ -83,7 +83,7 @@
         "id": "11",
         "nombre": "Combo 11: (Botella Black Label 750ml)",
         "precio": 6500,
-        "img": "./IMG/Blacklabel.jpeg",
+        "img": "../IMG/Blacklabel.jpeg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -91,7 +91,7 @@
         "id": "12",
         "nombre": "Combo 12: (1 Campari + 2 Jugos Citric Naranja)",
         "precio": 1700,
-        "img": "./IMG/Campari y Jugo.jpg",
+        "img": "../IMG/Campari y Jugo.jpg",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -99,7 +99,7 @@
         "id": "13",
         "nombre": "Combo 13: (Botella de Jagger + 4 latas RedBull 250ml)",
         "precio": 5500,
-        "img": "./IMG/JaggeryRedbull.png",
+        "img": "../IMG/JaggeryRedbull.png",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -107,7 +107,7 @@
         "id": "14",
         "nombre": "Combo 14: (Tequila Sol Azteca 1L)",
         "precio": 1400,
-        "img": "./IMG/Tequila.png",
+        "img": "../IMG/Tequila.png",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         },
@@ -115,7 +115,7 @@
         "id": "15",
         "nombre": "Combo 15: (Botella de Malibu + 2 Jugos cepita 1L)",
         "precio": 2700,
-        "img": "./IMG/MalibuyJugo.png",
+        "img": "../IMG/MalibuyJugo.png",
         "descripcion": "descripcion",
         "idcategory":"Otros"
         }
