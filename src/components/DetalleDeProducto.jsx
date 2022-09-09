@@ -22,18 +22,21 @@ const DetalledeProductoContainer = ({productoEspecifico}) => {
     
             alert("No se encontro el producto");
           }else {
-            setProductos(response.filter((producto) => producto.id == id));
+            setProductos(response.find((producto) => producto.id === id));
           }
         }, [id]);
-      }, []);
+    },);
       return (
+        <div className='CardYDetalle'>
+        <div className='Card'>
+
         <Card sx={{ maxWidth: 400 }}>
         <CardMedia
           component="img"
           alt="imagen de producto"
           height="400"
           image={productos.img}
-        />
+          />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {productos.nombre}
@@ -47,6 +50,12 @@ const DetalledeProductoContainer = ({productoEspecifico}) => {
           <Typography gutterBottom variant="h6">AR${productos.precio}</Typography>
         </CardActions>
       </Card>
+        </div>
+        <div className='Detalle'>
+            <p>{productos.descripcion}</p>
+            <button className='AgregarAlCarrito'>Agregar al Carrito</button>
+        </div>
+          </div>
       );
     };
     export default DetalledeProductoContainer
