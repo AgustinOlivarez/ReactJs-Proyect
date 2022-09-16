@@ -1,9 +1,9 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Producto from './components/Producto';
-import ListadoDeProductosContainer from './components/ListadoDeProductosContainer';
+import Producto from './components/Producto/Producto';
+import ListadoDeProductosContainer from './components/Producto/ListadoDeProductosContainer';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import DetalledeProductoContainer from './components/DetalleDeProducto'
+import DetalledeProductoContainer from './components/Producto/DetalleDeProducto'
 
 function App() {
 

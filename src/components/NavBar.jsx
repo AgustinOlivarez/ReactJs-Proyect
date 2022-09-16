@@ -13,7 +13,8 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { blue } from '@mui/material/colors';
+import { blue, lightBlue } from '@mui/material/colors';
+import {Link} from 'react-router-dom'
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -98,34 +99,19 @@ const ResponsiveAppBar = () => {
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            LOGO
+          sx={{
+            mr:2
+          }}>
+
+          <Link to={"category/Cervezas"}>Cervezas</Link>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
+          <Typography
+          sx={{
+            mr:2
+          }}>
+
+            <Link to={"category/Otros"}>Otros</Link>
+          </Typography>
 
           <IconButton
             sx={{ color: blue[900] }}
@@ -136,8 +122,9 @@ const ResponsiveAppBar = () => {
           >
             {/* <input hidden accept="image/*" type="file" /> */}
             <ShoppingCartIcon />
-          </IconButton>
+            {/* <Link to="./cart"></Link> */}
           <Typography>Ver Carrito</Typography>
+          </IconButton>
 
 
         </Toolbar>

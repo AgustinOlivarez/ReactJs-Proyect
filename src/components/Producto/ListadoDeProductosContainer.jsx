@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import jsonpack from "./data.json";
+import jsonpack from ".././data.json";
 import ListadoDeProductos from "./ListadoDeProductos";
-import Producto from "./Producto";
 import { useParams } from 'react-router-dom';
 
 const ListadoDeProductosContainer = ({ name }) => {
@@ -18,10 +17,10 @@ const ListadoDeProductosContainer = ({ name }) => {
 
         setProductos(response);
       }else {
-        setProductos(response.filter((producto) => producto.idcategory == idcategory));
+        setProductos(response.filter((producto) => producto.idcategory === idcategory));
       }
     }, [idcategory]);
-  }, []);
+  },);
 
   return (
     <div name="test">

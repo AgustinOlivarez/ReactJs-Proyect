@@ -5,6 +5,7 @@
         "precio": 2000,
         "img": "../IMG/fernet y cocas.jpeg",
         "descripcion": "descripcion",
+        "stock":"10",
         "idcategory":"Otros"
         },
     {
@@ -13,6 +14,7 @@
         "precio": 2200,
         "img": "../IMG/gin y 2 tonicas.jpg",
         "descripcion": "descripcion",
+        "stock":"10",
         "idcategory":"Otros"
         },
     {
@@ -21,6 +23,7 @@
         "precio": 2500,
         "img": "../IMG/ron y 2 cocas.jpg",
         "descripcion": "descripcion",
+        "stock":"4",
         "idcategory":"Otros"
     },
     {
@@ -29,6 +32,7 @@
         "precio": 1900,
         "img": "../IMG/vodka y 2 sprites.jpg",
         "descripcion": "descripcion",
+        "stock":"8",
         "idcategory":"Otros"
         },
     {
@@ -37,6 +41,7 @@
         "precio": 1300,
         "img": "../IMG/6Packandesrubia.png",
         "descripcion": "descripcion",
+        "stock":"6",
         "idcategory":"Cervezas"
     },
     {
@@ -45,6 +50,7 @@
         "precio": 1400,
         "img": "../IMG/6Packandesipa.png",
         "descripcion": "descripcion",
+        "stock":"14",
         "idcategory":"Cervezas"
     },
     {
@@ -53,6 +59,7 @@
         "precio": 1300,
         "img": "../IMG/6Packandesroja.png",
         "descripcion": "descripcion",
+        "stock":"18",
         "idcategory":"Cervezas"
       },
     {
@@ -61,6 +68,7 @@
         "precio": 1400,
         "img": "../IMG/6Packandesnegra.png",
         "descripcion": "descripcion",
+        "stock":"16",
         "idcategory":"Cervezas"
     },
     {
@@ -69,6 +77,7 @@
         "precio": 3000,
         "img": "../IMG/Redlabel.jpeg",
         "descripcion": "descripcion",
+        "stock":"3",
         "idcategory":"Otros"
     },
     {
@@ -77,6 +86,7 @@
         "precio": 56500,
         "img": "../IMG/Bluelabel.jpeg",
         "descripcion": "descripcion",
+        "stock":"2",
         "idcategory":"Otros"
          },
     {
@@ -85,6 +95,7 @@
         "precio": 6500,
         "img": "../IMG/Blacklabel.jpeg",
         "descripcion": "descripcion",
+        "stock":"5",
         "idcategory":"Otros"
         },
     {
@@ -93,6 +104,7 @@
         "precio": 1700,
         "img": "../IMG/Campari y Jugo.jpg",
         "descripcion": "descripcion",
+        "stock":"20",
         "idcategory":"Otros"
         },
     {
@@ -101,6 +113,7 @@
         "precio": 5500,
         "img": "../IMG/JaggeryRedbull.png",
         "descripcion": "descripcion",
+        "stock":"8",
         "idcategory":"Otros"
         },
     {
@@ -109,6 +122,7 @@
         "precio": 1400,
         "img": "../IMG/Tequila.png",
         "descripcion": "descripcion",
+        "stock":"7",
         "idcategory":"Otros"
         },
     {
@@ -117,6 +131,7 @@
         "precio": 2700,
         "img": "../IMG/MalibuyJugo.png",
         "descripcion": "descripcion",
+        "stock":"10",
         "idcategory":"Otros"
         }
 
